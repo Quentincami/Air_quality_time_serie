@@ -6,4 +6,5 @@ This project is a personnal project that mix both of my interest, the environmen
 - The original files have one row for each sensor and hour, so we transform the file into and indexed by timestamp with columns for each parameters measured.
 - Create yearly files for each sensor
 - Merge all yearly files to a global one.
-- Right now, the different scripts are manually launched inside a manually created EC2 instance. The goal is to automate the pipeline to have at least all this retrieve/modify csv automated, so I can focus on the analysis for when I want to start again with fresh datas.
+
+Right now, the different scripts are manually launched inside a manually created EC2 instance. The goal is to automate the pipeline to have at least all this retrieve/modify csv automated, so I can focus on the analysis for when I want to start again with fresh datas.
